@@ -1,0 +1,32 @@
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+.pnpm-store/
+
+# Rust
+src-tauri/target/
+**/*.rs.bk
+Cargo.lock
+
+# Handoff outputs
+handoff/
+
+# Local AI caches
+src-tauri/.fastembed_cache/
+.cache/tidy/
+
+# Private corpora / results
+tidy-private/
+bench/raw/
+results/*.csv
+results/*.json
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.swp
